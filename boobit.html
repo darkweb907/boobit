@@ -15,11 +15,11 @@
 	var fame=document.getElementById("show")
 	var count=document.getElementById("content")
 	fame.onclick=function () {
-		if (count.className=="open") {
-			count.className=""
+		if (count.className=="") {
+			count.className="open"
 			fame.innerHTML="show more"
 		}else{
-			count.className="open"
+			count.className=""
 			fame.innerHTML="show less"
 		}
 	}
